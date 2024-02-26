@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    background-color: brown;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .navbar {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .navbar {
+      width: 100%;
+    }
+  }
+.banner{
+    background-image: url(images/portfolio-2.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+nav a:hover{
+    background-color: blanchedalmond;
+}
+.welcome{
+    padding: 20px;
+    margin-left: 120px;
+}
+.welcome1{
+    font-size: 70px;
+    font-family: 'Charm', cursive;
+    margin-left: 120px;
+    font-weight: normal;
+}
+.about{
+    font-size: 20px;
+}
+.column:hover{
+    background-color: blanchedalmond;
+}
+.h-3{
+	font-size:30px;
+}
+.kyframe{
+	background-image:url(images/page3.jpg);
+	height:400px;
+	background-size:cover;
+	animation-name:kyframe;
+	animation-duration:12s;
+	animation-iteration-count:infinite;
+	background-position:center;
+	}
+    @keyframes kyframe{
+        0%{}
+        45%{ background-image:url(images/wood-table-.jpg); }
+        65%{ background-image:url(images/page2.jpg); }
+        100%{ background-image:url(images/page1.webp); }
+        }
+        .h-5{
+            font-size:50px;
+            text-align:center;
+            padding:20PX;
+            font-family: 'Nova', cursive;
+        }
+.foot{
+    text-decoration: none;
+}
+.mylist{
+    font-size: 15px;
+}
+.cover-1{
+    background-image: url(images/cover2.webp);
+    height: 1000px;
+    background-size: cover;
+
+}
+.blck-lyr{
+    background-color:rgba(0,0,0,0.5);
+	height:100%;
+	
+}
+.btn-3{
+	background-color:rgba(255,204,0,1);
+	color:rgba(0,0,0,1);
+	border:none;
+}
+.forborder{
+    border-radius: 60px;
+    padding: 80px;
+}
